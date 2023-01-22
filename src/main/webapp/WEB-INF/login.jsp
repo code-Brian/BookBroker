@@ -51,7 +51,7 @@
 		<div class="col">
 			<div class="d-flex flex-column justify-content-center align-items-center bg-light rounded py-4 shadow">
 				<h2>Login</h2>
-				<form:form action="/login" method="POST" modelAttribute="logUser">
+				<form:form action="/login" method="POST" modelAttribute="loginUser">
 					<div>
 						<form:label class="form-label" path="email">Email</form:label>
 						<form:input class="form-control" path="email" type="email"/>

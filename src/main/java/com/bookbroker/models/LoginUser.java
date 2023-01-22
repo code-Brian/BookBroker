@@ -10,7 +10,6 @@ public class LoginUser {
 	private String email;
 	
 	@NotNull
-	@Size(min=8, message="Password must be 8 characters!")
 	private String password;
 	
 	public LoginUser() {}
